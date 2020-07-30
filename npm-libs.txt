@@ -1,0 +1,13 @@
+::ALREADY INSTALLED
+  Name					Command
+  Joi 					npm i joi
+  Mysql 				npm install mysql
+  Express 				npm install express
+  Body Parser 			npm install body-parser
+  Face-Api, Canvas, TF 	npm i face-api.js canvas @tensorflow/tfjs-node
+  Nodemon				npm install --save-dev nodemon
+
+::REQUIRED LIBRARIES IF [@tensorflow/tfjs-node] IS IMPORTED
+  Name					Command
+  Node Gyp 				npm install -g node-gyp
+  Windows Build 		npm install --global --production windows-build-tools

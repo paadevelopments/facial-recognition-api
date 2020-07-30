@@ -1,0 +1,41 @@
+{
+  "name": "facial-recognotion-api",
+  "version": "1.0.0",
+  "description": "A node.js based facial recognition for server side identity validations.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paadevelopments/facial-recognition-api.git"
+  },
+  "keywords": [
+    "recognition",
+    "facial",
+    "recognition",
+    "face",
+    "match",
+    "api",
+    "face",
+    "biometric",
+    "verification"
+  ],
+  "author": "Paa Kwesi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paadevelopments/facial-recognition-api/issues"
+  },
+  "homepage": "https://github.com/paadevelopments/facial-recognition-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "canvas": "^2.6.1",
+    "express": "^4.17.1",
+    "face-api.js": "^0.22.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
